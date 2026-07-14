@@ -1,2 +1,2 @@
 # Amazon_clone
-this is a clone websitw of amazon
+this is a clone website of amazon
