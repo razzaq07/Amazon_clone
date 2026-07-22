@@ -1,0 +1,1022 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+body{
+  background-color: black;
+}
+#navber{
+    display: inline-block;
+    height: 60px;
+    width: 100%;
+    border: 1px  solid black;
+    background-color: #232f3e;
+
+}
+.navberlogo{
+    position: absolute;
+    top: 9px;
+  margin-left: 5px;
+
+
+}
+.searchbox{
+    position: absolute;
+    width: 60%;
+    height: 5%;
+    left: 200px;
+    top: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 500;
+
+   
+}
+#gobutton{
+    position:absolute;
+    margin-left: 71.8%;
+   height: 5%;
+   top: 14px;
+   width: 3%;
+   border: none;
+   border-radius: 0 5px 5px 0;
+   background-color: #e47911;
+
+}
+#account{
+    position:relative;
+    margin-left: 80%;
+    top: 16px;
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    padding-right: 10px;
+  border-right: 1px solid rgb(1, 73, 73);
+}
+#help{
+   
+    position:relative;
+    top: 16px;
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    padding-right: 10px;
+    padding-left: 10px;
+  border-right: 1px solid rgb(1, 73, 73);
+}
+#mycart{
+     position:relative;
+    top: 16px;
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    padding-left: 10px;
+ 
+}
+.banner1{
+   height: 650px;
+   width: 100%;
+   background-image: url(1st_banner.jpg);
+   background-size: cover;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items:flex-end;
+}
+#prime_video{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size:x-large;
+  font-weight: 500;
+  
+ 
+}
+#text_prime{
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+#prime_photo{
+
+  height:80%;
+  width: 90%;
+  margin-left: 5%;
+  background-image: url(prime_video_banner.jpg);
+  background-size:cover;
+  background-position:bottom;
+  
+}
+#seeonprime{
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  color: rgb(106, 106, 199);
+  text-decoration: none;
+  left: 2rex;
+
+}
+#customer_loved{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+  display: flexbox;
+}
+#text_customer{
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+#customer_loved_photos{
+
+  height:80%;
+  width: 90%;
+  margin-left: 5%;
+  display: inline-block;
+ 
+}
+#women_fashion{
+  display: inline-block;
+  position: relative;
+height: 46.3%;
+width: 46.3%;
+background-image: url(customer_most-loved\(1\).jpg);
+background-size: cover;
+background-position: bottom;
+
+}
+#women_fashion_photo{
+  display: inline-block;
+  font-size: 15px;
+  position:relative;
+ top: 2rex;
+ right: 18.5rex;
+}
+#mens_fashions{
+  display: inline-block;
+  position: relative;
+height: 46.3%;
+width: 46.3%;
+margin-left: 10px;
+background-image: url(customer_most_loved\(2\).jpg);
+background-size: cover;
+background-position: bottom;
+left: 19.6rex;
+bottom: 21rex;
+}
+#mens_fashion_photo{
+  display: inline-block;
+  font-size: 15px;
+  position:relative;
+  bottom: 19rex;
+  left: 1rex;
+}
+#beauty{
+  display: inline-block;
+  position: relative;
+height: 46.3%;
+width: 46.3%;
+background-image: url(customer_most_loved_beauty.jpg);
+background-size: cover;
+background-position: bottom;
+bottom: 18rex;
+
+
+}
+#beauty_products_text{
+  display: inline-block;
+  font-size: 15px;
+  position:relative;
+  right: 18.5rex;
+  bottom: 16rex;
+  
+}
+#kitchen{
+  display: inline-block;
+height: 46.3%;
+width: 46.3%;
+position: relative;
+margin-left: 10px;
+background-image: url(customer_most_loved_kitchen.jpg);
+background-size: cover;
+background-position: bottom;
+left: 19.6rex;
+bottom: 39rex;
+}
+#kitchen_items_text{
+   display: inline-block;
+  font-size: 15px;
+  position:relative;
+ bottom: 36.9rex;
+ left: 1rex;
+}
+#bestsellers{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#bestsellers_text{
+   margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 3px;
+  
+}
+#bestsellers_photo{
+   display: inline-block;
+  position: relative;
+  height:80%;
+  width: 90%;
+  margin-left: 5%;
+  background-image: url(best_seller_outlket.jpg);
+  background-size:cover;
+  background-position:bottom;
+}
+#covers{
+   display: inline-block;
+  position: relative;
+  font-size: medium;
+  color: rgb(106, 106, 199);
+  text-decoration: none;
+  left: 2rex;
+}
+#toys{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#toys_text{
+  margin-top: 10px;
+  margin-left: 15px;
+ margin-bottom: 3px;
+  
+}
+#toys_photo{
+  display: inline-block;
+  position: relative;
+   height:80%;
+  width: 90%;
+  margin-left: 5%;
+  background-image: url(amazon_exclusive_toys.jpg);
+  background-size:cover;
+  background-position:bottom;
+}
+#toys_all{
+   display: inline-block;
+  position: relative;
+  font-size: medium;
+  color: rgb(106, 106, 199);
+  text-decoration: none;
+  left: 2rex;
+}
+.box2{
+   height:400px;
+   width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(232, 236, 240);
+ padding-top: 35px;
+}
+
+#furniture{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+ 
+}
+#furni_text_link{
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+#echo{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#plants{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#fashions{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#furni_photo{
+  height: 80%;
+  width: 90%;
+  background-image: url(small_spaces_solution.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#furni_text{
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#echo_photo{
+  height: 70%;
+  width: 90%;
+  background-image: url(amazon_echo.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#echo_text{
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#echo_text_link{
+  
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+#amazon_kk{
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#plants_photo{
+  height: 80%;
+  width: 90%;
+   background-image: url(plants.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#plants_text{
+   display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#plants_text_link{
+   display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+#fashions_photo{
+  height: 80%;
+  width: 90%;
+   background-image: url(fashion.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#fashion_text{
+   display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#fashion_text_link{
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+.footer1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: #232f3e;
+}
+#amazon_logo_footer{
+  display: inline-block;
+  position:relative;
+ height: 30%;
+ top: 40%;
+
+}
+.footer2{
+   display: inline-block;
+  position: relative;
+  height: 30px;
+  width: 100%;
+  background-color: #000000;
+}
+#condition_use{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: white;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+#privacy{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: white;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+#ads{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: white;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+#copywrite{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: rgb(138, 134, 134);
+font-weight:100;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+.footer3{
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  width: 100%;
+  background-color: #191f27;
+}
+@media screen and (max-width : 720px) {
+ *{
+  margin: 0;
+  padding: 0;
+ }
+body{
+  background-color: black;
+}
+#navber{
+    display: inline-block;
+    height: 60px;
+    width: 100%;
+    border: 1px  solid black;
+    background-color: #232f3e;
+
+}
+.navberlogo{
+    position: absolute;
+    top: 2px;
+  margin-left: 3px;
+  height: 30px;
+  margin-top: 1px;
+
+
+}
+.searchbox{
+    position: absolute;
+    width: 50%;
+    height: 4.5%;
+    left: 115px;
+    top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 500;
+
+   
+}
+#gobutton{
+    position:absolute;
+    margin-left: 62.9%;
+   height: 4.5%;
+   top: 15px;
+   width: 3.5%;
+   border: none;
+   border-radius: 0 5px 5px 0;
+   background-color: #e47911;
+
+}
+#account{
+    position:relative;
+    margin-left: 68%;
+    top: 18px;
+    text-decoration: none;
+    color: white;
+    font-size:medium;
+    padding-right: 7px;
+  border-right: 1px solid rgb(1, 73, 73);
+}
+#help{
+   
+    position:relative;
+    top: 18px;
+    text-decoration: none;
+    color: white;
+    font-size:medium;
+    padding-right: 10px;
+    padding-left: 7px;
+  border-right: 1px solid rgb(1, 73, 73);
+}
+#mycart{
+     position:relative;
+    top: 18px;
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    padding-left: 10px;
+    font-size: medium;
+ 
+}
+.banner1{
+   height: 350px;
+   width: 100%;
+   background-image: url(1st_banner.jpg);
+   background-size: cover;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items:flex-end;
+}
+#prime_video{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size:x-large;
+  font-weight: 500;
+  
+ 
+}
+#text_prime{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: large;
+}
+#prime_photo{
+
+  height:80%;
+  width: 90%;
+  margin-left: 5%;
+  background-image: url(prime_video_banner.jpg);
+  background-size:cover;
+  background-position:bottom;
+  
+}
+#seeonprime{
+  display: inline-block;
+  position: relative;
+  font-size: small;
+  color: rgb(106, 106, 199);
+  text-decoration: none;
+  left: 1rex;
+  bottom: 1.5rex;
+
+}
+#customer_loved{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size: large;
+  font-weight: 500;
+  display: flexbox;
+}
+#text_customer{
+  margin-top: 4px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+#customer_loved_photos{
+
+  height:72%;
+  width: 90%;
+  margin-left: 5%;
+  display: inline-block;
+ 
+}
+#women_fashion{
+  display: inline-block;
+  position: relative;
+height: 46.3%;
+width: 46.3%;
+background-image: url(customer_most-loved\(1\).jpg);
+background-size: cover;
+background-position: bottom;
+
+}
+#women_fashion_photo{
+  display: inline-block;
+  font-size: 15px;
+  position:relative;
+ top: 2rex;
+ right: 18.5rex;
+}
+#mens_fashions{
+  display: inline-block;
+  position: relative;
+height: 46.3%;
+width: 46.3%;
+margin-left: 10px;
+background-image: url(customer_most_loved\(2\).jpg);
+background-size: cover;
+background-position: bottom;
+left: 9.4rex;
+top: -13.4rex;
+
+}
+#mens_fashion_photo{
+  display: inline-block;
+  
+  position:relative;
+ left: 10rex;
+ top: -160px;
+}
+#beauty{
+  display: inline-block;
+  position: relative;
+height: 46.3%;
+width: 46.3%;
+background-image: url(customer_most_loved_beauty.jpg);
+background-size: cover;
+background-position: bottom;
+top: -12.8rex;
+right: 10.6rex;
+
+}
+#beauty_products_text{
+  display: inline-block;
+  font-size: 15px;
+  position:relative;
+  right: 18.5rex;
+  bottom: 16rex;
+  
+}
+#kitchen{
+  display: inline-block;
+height: 46.3%;
+width: 46.3%;
+position: relative;
+margin-left: 10px;
+background-image: url(customer_most_loved_kitchen.jpg);
+background-size: cover;
+background-position: bottom;
+bottom: 26.3rex;
+ left: 9.4rex;
+
+}
+#kitchen_items_text{
+   display: inline-block;
+  font-size: 15px;
+  position:relative;
+ bottom: 36.9rex;
+ left: 1rex;
+}
+#bestsellers{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#bestsellers_text{
+   margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 3px;
+  
+}
+#bestsellers_photo{
+   display: inline-block;
+  position: relative;
+  height:80%;
+  width: 90%;
+  margin-left: 5%;
+  background-image: url(best_seller_outlket.jpg);
+  background-size:cover;
+  background-position:bottom;
+}
+#covers{
+   display: inline-block;
+  position: relative;
+  font-size: medium;
+  color: rgb(106, 106, 199);
+  text-decoration: none;
+  left: 2rex;
+}
+#toys{
+  display: inline-block;
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#toys_text{
+  margin-top: 10px;
+  margin-left: 15px;
+ margin-bottom: 3px;
+  
+}
+#toys_photo{
+  display: inline-block;
+  position: relative;
+   height:80%;
+  width: 90%;
+  margin-left: 5%;
+  background-image: url(amazon_exclusive_toys.jpg);
+  background-size:cover;
+  background-position:bottom;
+}
+#toys_all{
+   display: inline-block;
+  position: relative;
+  font-size: medium;
+  color: rgb(106, 106, 199);
+  text-decoration: none;
+  left: 2rex;
+}
+.box2{
+   height:400px;
+   width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(232, 236, 240);
+ padding-top: 35px;
+}
+
+#furniture{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+ 
+}
+#furni_text_link{
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+#echo{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#plants{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#fashions{
+   display: inline-block;
+  height: 90%;
+  width: 23%;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+#furni_photo{
+  height: 80%;
+  width: 90%;
+  background-image: url(small_spaces_solution.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#furni_text{
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#echo_photo{
+  height: 70%;
+  width: 90%;
+  background-image: url(amazon_echo.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#echo_text{
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#echo_text_link{
+  
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+#amazon_kk{
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#plants_photo{
+  height: 80%;
+  width: 90%;
+   background-image: url(plants.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#plants_text{
+   display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#plants_text_link{
+   display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+#fashions_photo{
+  height: 80%;
+  width: 90%;
+   background-image: url(fashion.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+#fashion_text{
+   display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+}
+#fashion_text_link{
+  display: inline-block;
+  position: relative;
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(152, 152, 255);
+  left: 4%;
+  top: 1.5%;
+}
+.footer1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: #232f3e;
+}
+#amazon_logo_footer{
+  display: inline-block;
+  position:relative;
+ height: 30%;
+ top: 40%;
+
+}
+.footer2{
+   display: inline-block;
+  position: relative;
+  height: 30px;
+  width: 100%;
+  background-color: #000000;
+}
+#condition_use{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: white;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+#privacy{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: white;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+#ads{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: white;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+#copywrite{
+display: inline-block;
+position: relative;
+text-decoration: none;
+color: rgb(138, 134, 134);
+font-weight:100;
+left: 30%;
+margin-right: 1%;
+margin-top:0.4%;
+}
+.footer3{
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  width: 100%;
+  background-color: #191f27;
+}
+
+
+
+
+
+
+}
